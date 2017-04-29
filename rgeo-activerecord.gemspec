@@ -1,7 +1,8 @@
 require "./lib/rgeo/active_record/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "rgeo-activerecord"
+  spec.name = "rgeo-
+record"
   spec.summary = "An RGeo module providing spatial extensions to ActiveRecord."
   spec.description = "RGeo is a geospatial data library for Ruby. RGeo::ActiveRecord is an optional RGeo module providing some spatial extensions to ActiveRecord, as well as common tools used by RGeo-based spatial adapters."
   spec.version = RGeo::ActiveRecord::VERSION
@@ -15,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.2.2"
 
   spec.add_dependency "rgeo", "~> 0.3"
-  spec.add_dependency "activerecord", "~> 5.0"
+  spec.add_dependency "activerecord", "~> 5.1"
 
   spec.add_development_dependency "minitest", "~> 5.8"
   spec.add_development_dependency "rake", "~> 12.0"
